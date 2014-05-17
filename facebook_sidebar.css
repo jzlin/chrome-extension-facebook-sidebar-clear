@@ -1,0 +1,4 @@
+#pagelet_navigation .imgWrap img,
+#pagelet_navigation .imgWrap i {
+	-webkit-filter: grayscale(100%);
+}

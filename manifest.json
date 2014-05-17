@@ -1,0 +1,32 @@
+{
+  "name" : "Facebook Sidebar Clear",
+  "version" : "1.0.0",
+  "manifest_version": 2,
+  "description" : "Make Facebook sidebar clearly.",
+  "page_action" :
+  {
+    "default_icon" : {
+      "19" : "facebook_circle_gray_128.png",
+      "38" : "facebook_circle_gray_128.png"
+    }
+  },
+  "content_security_policy" : "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src *",
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://www.facebook.com/*",
+        "https://www.facebook.com/*"
+      ],
+      "css" : [
+        "facebook_sidebar.css"
+      ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "icons" : {
+    "16" : "facebook_circle_gray_128.png",
+    "48" : "facebook_circle_gray_128.png",
+    "128" : "facebook_circle_gray_128.png"
+  }
+}
