@@ -1,4 +1,74 @@
+* {
+	font-family: "Helvetica Neue", Helvetica,Arial, "Microsoft Yahei", "STHeiti", "微軟正黑體" ,sans-serif;
+}
+
+#pagelet_navigation .imgWrap {
+	margin-right: 7px;
+}
+
 #pagelet_navigation .imgWrap img,
 #pagelet_navigation .imgWrap i {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%) sepia(0.1);
+}
+
+#pagelet_welcome_box {
+	padding: 7px 0 16px;
+	border-bottom: 1px solid #eee;
+}
+
+.ego_unit_container {
+
+}
+
+#leftCol {
+	background: #fff;
+	box-sizing: border-box;
+	padding: 10px !important;
+	margin: 13px 0;
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	width: 170px !important;
+	border-radius: 3px;
+}
+
+.sideNavItem.selectedItem .item {
+	background: #3b5998 !important;
+}
+
+.sideNavItem.selectedItem .item, .sideNavItem.selectedItem .subitem {
+	color: #fff !important;
+}
+
+.sideNavItem.selectedItem .item .linkWrap, .sideNavItem.selectedItem .subitem .linkWrap{
+	font-weight: bold !important;
+}
+
+
+.uiSideNav .item, .uiSideNav .subitem {
+	color: #141823 !important;
+}
+
+.fbxWelcomeBoxBlock:after {
+	border: none !important;
+}
+
+.fbxWelcomeBoxBlock .fbxWelcomeBoxImg {
+	border-radius: 50%;
+}
+
+.uiSideNavCount {
+	background: #eee !important;
+	padding: 2px 5px !important;
+	border-radius: 3px !important;
+}
+
+.uiSideNavCount .mtm {
+	margin-top: 20px !important;
+}
+
+
+/* 內文格式 */
+.userContent p {
+	line-height: 1.6em !important;
+	margin-bottom: 1.6em !important;
 }
